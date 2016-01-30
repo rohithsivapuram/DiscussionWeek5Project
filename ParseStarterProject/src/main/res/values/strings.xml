@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015-present, Parse, LLC.
+  ~ All rights reserved.
+  ~
+  ~ This source code is licensed under the BSD-style license found in the
+  ~ LICENSE file in the root directory of this source tree. An additional grant
+  ~ of patent rights can be found in the PATENTS file in the same directory.
+  -->
+<resources>
+    <string name="parse_app_id">L01KC0I5EiU1sQjygoNvlIOllREPtTNv30Uwx6om</string>
+    <string name="parse_client_key">SKwH3dA8uZaq9H6LfAYQcHY6wsDNo47AKjx8TxbJ</string>
+
+    <string name="app_name">Parse Starter Project</string>
+
+    <string name="formTitle">Please Enter Your Details</string>
+    <string name="Name">Your Name</string>
+    <string name="Email">Your Email</string>
+    <string name="EmployeeId">Your Employee ID</string>
+    <string name="Phone">Your Phone Number</string>
+    <string name="Address">Your Address</string>
+    <string name="Submit">Submit</string>
+    <string name="Search">Search</string>
+    <string name="AddNew">Add Record</string>
+    <string name="action_settings">Settings</string>
+</resources>
