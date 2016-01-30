@@ -55,13 +55,11 @@ public class SearchActivity extends ActionBarActivity {
     public void search(View button) {
         final EditText employeeId = (EditText) findViewById(R.id.EditTextId);
         String employmentId = employeeId.getText().toString();
-        System.out.println(employmentId);
         ParseQuery<Employee> query = new ParseQuery<Employee>("Employee");
         query.whereEqualTo("EmployeeId", employmentId);
         query.getFirstInBackground(new GetCallback<Employee>() {
 
             public void done(Employee employee, ParseException e) {
-                System.out.print("hh" + employee);
                 if (employee != null) {
                     TextView textView = (TextView)findViewById(R.id.TextViewContent);
                     String desc = employee.getString("Name") + "\n" + employee.getString("Phone") + "\n" +
